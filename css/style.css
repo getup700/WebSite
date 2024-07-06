@@ -1,0 +1,280 @@
+/* reset */
+*{
+    padding: 0;
+    margin: 0;
+    /* 为了之后给内容添加padding不影响整体布局 */
+    box-sizing: border-box;
+}
+
+/* main styling */
+html,body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+
+a{
+    color: #333;
+    /* 清除下划线 */
+    text-decoration: none;
+}
+
+h1,h2,h3{
+    padding-bottom: 20px;
+}
+
+p{
+    margin: 10px 0;
+}
+
+/* utility classes */
+.container{
+    margin: 0 auto;
+    max-width: 1100px;
+    /* 防止magin塌陷，清除浮动 */
+    overflow: hidden;
+    padding: 0 20px;
+}
+.text-primary{
+    color: goldenrod;
+}
+
+.clr{
+    clear: both;
+}
+
+.py{
+    padding: 10px 0px;
+}
+
+.l-heading{
+    font-size: 40px;
+    padding-top: 20px;
+}
+/* navbar */
+#navbar
+{
+    background-color: #333;
+    color: #fff;
+    overflow:auto;
+}
+
+#navbar a{
+    color: #fff;
+}
+
+#navbar h1{
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar ul{
+    float:right;
+    list-style: none;
+}
+
+#navbar ul li{
+    float: left;
+}
+
+#navbar ul li a{
+    /* 由于需要设置a的padding值，需要先将其转换为块 */
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current{
+    background-color: #444;
+    color:goldenrod;
+}
+
+/* showcase */
+#showcase{
+    background:url(../img/universe.jpg) no-repeat center;
+    height: 600px;
+}
+
+#showcase .showcase-content{
+    text-align: center;
+    padding-top: 170px;
+}
+
+#showcase .showcase-content h1{
+    font-size: 60px;
+    /* 行高 */
+    line-height: 1.2em;
+}
+
+#showcase .showcase-content p{
+    font-size: 20px;
+    line-height: 1.7em;
+    padding-bottom: 20px;
+}
+
+.btn{
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    background-color: #333;
+    padding: 13px 20px;
+    border: none;
+}
+
+.btn:hover{
+    background-color: goldenrod;
+}
+
+.btn-dark{
+    background-color: #333;
+    color: #fff;
+}
+
+/* home-info */
+#home-info{
+    height: 600px;
+    background-color: #333;
+}
+
+#home-info .info-img{
+    float: left;
+    width: 50%;
+    background: url(../img/PlanetaryEngine.jpg) no-repeat center;
+    height: 100%;
+}
+
+#home-info .info-content{
+    float: right;
+    width: 50%;
+    text-align: center;
+    height: 100%;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+
+#home-info .info-content p{
+    padding-bottom: 30px;
+}
+
+/* feature */
+.box{
+    float: left;
+    width: 33%;
+    padding: 50px;
+    text-align: center;
+    ;
+}
+
+.box i{
+    margin-bottom: 10px;
+}
+
+.bg-dark{
+    background: gray;
+    color: #333;
+}
+
+.bg-primary{
+    background-color: gainsboro;
+    color: #333;
+}
+
+/* footer */
+#main-footer{
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+
+/* about-info */
+#about-info .info-left{
+  float: left;
+  width: 50%;
+  height: 100%;  
+}
+
+#about-info .info-right{
+    float: right;
+    width: 50%;
+    height: 100%;  
+  }
+
+#about-info .info-right img{
+    /* img是行标签，设置margin前需要转换为块标签 */
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 50%;
+    margin-top: 90px;
+}
+
+/* testimonials */
+#testimonials{
+    height: 600px;
+    background:url(../img/universe.jpg) no-repeat center center/cover;
+    padding-top: 40px;
+}
+
+#testimonials h2{
+    color: #fff;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#testimonials .testimonial{
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    opacity: 0.7;
+}
+
+#testimonials .testimonial img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+
+#testimonials .testimonial .content{
+    /* min-height: 50px; */
+    height: 80px;
+}
+
+/* contact-form */
+#contact-form .form-group{
+    margin-bottom: 20px;
+}
+
+#contact-form label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea{
+    width: 100%;
+    padding:10px;
+    border: 1px #ddd solid;
+}
+
+#contact-form textarea{
+    height: 200px;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus{
+    outline: none;
+    border-color: #f7f7f7;
+}
+
+
+
+
+
+
+
+
+
