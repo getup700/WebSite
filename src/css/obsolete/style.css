@@ -50,6 +50,7 @@ p{
     font-size: 40px;
     padding-top: 20px;
 }
+
 /* navbar */
 #navbar
 {
@@ -91,7 +92,7 @@ p{
 
 /* showcase */
 #showcase{
-    background:url(../img/universe.jpg) no-repeat center;
+    background:url(../../img/universe.jpg) no-repeat center;
     height: 600px;
 }
 
@@ -139,7 +140,7 @@ p{
 #home-info .info-img{
     float: left;
     width: 50%;
-    background: url(../img/PlanetaryEngine.jpg) no-repeat center;
+    background: url(../../img/PlanetaryEngine.jpg) no-repeat center;
     height: 100%;
 }
 
@@ -179,14 +180,6 @@ p{
     color: #333;
 }
 
-/* footer */
-#main-footer{
-    text-align: center;
-    background: #333;
-    color: #fff;
-    padding: 20px;
-}
-
 
 /* about-info */
 #about-info .info-left{
@@ -213,7 +206,7 @@ p{
 /* testimonials */
 #testimonials{
     height: 600px;
-    background:url(../img/universe.jpg) no-repeat center center/cover;
+    background:url(../../img/universe.jpg) no-repeat center center/cover;
     padding-top: 40px;
 }
 
@@ -271,6 +264,14 @@ p{
 }
 
 
+
+/* footer */
+#main-footer{
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 20px;
+}
 
 
 

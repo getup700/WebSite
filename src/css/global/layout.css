@@ -1,0 +1,48 @@
+/* navbar */
+#navbar
+{
+    background-color: #333;
+    color: #fff;
+    overflow:auto;
+}
+
+#navbar a{
+    color: #fff;
+}
+
+#navbar h1{
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar ul{
+    float:right;
+    list-style: none;
+}
+
+#navbar ul li{
+    float: left;
+}
+
+#navbar ul li a{
+    /* 由于需要设置a的padding值，需要先将其转换为块 */
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current{
+    background-color: #444;
+    color:goldenrod;
+}
+
+
+
+/* footer */
+#main-footer{
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 20px;
+}
